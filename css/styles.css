@@ -127,6 +127,7 @@ body {
 }
 
 .main-header-copy {
+    margin: 0px;
     text-align: center;
     align-self: stretch;
 }
