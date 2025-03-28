@@ -93,6 +93,7 @@ body {
     display: flex;
     /* padding: 56px 30px 46px 29px; */
     padding-top: 56px;
+    padding-bottom: 46px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -128,6 +129,10 @@ body {
 .main-header-copy {
     text-align: center;
     align-self: stretch;
+}
+
+.tablet-container {
+    display: contents;
 }
 
 /* CARD WRAPPER */
@@ -212,3 +217,28 @@ body {
 /********************************/
         /* MEDIA QUERIES */
 /********************************/
+
+/* Tablet 768px */
+
+@media screen and (min-width: 768px) {
+
+    body {
+        gap: 74px;
+        padding-top: 102px;
+        padding-bottom: 102px;
+    }
+
+    .main-header {
+        width: 540px;
+    }
+
+    .title-copy, .title-heading {
+        font-size: 36px;
+    }
+
+    .tablet-container {
+        display: flex;
+        gap: var(--spacing-400);
+    }
+
+}
