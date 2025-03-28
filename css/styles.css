@@ -242,3 +242,18 @@ body {
     }
 
 }
+
+/* Desktop */
+@media screen and (min-width: 1240px) {
+
+    .card-wrapper {
+        height: 532px;
+        flex-direction: row;
+    }
+
+    .tablet-container {
+        flex-direction: column;
+    }
+
+
+}
